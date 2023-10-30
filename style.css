@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.section1{
+    width: 100vw;
+    height: 80vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 50vw;
+    height: 80vh;
+    margin-top: 250px;  
+}
+
+.content h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #05c46b;
+    margin-left: 100px;
+}
+
+.content h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.content p {
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.btn{
+    margin-left: 100px;
+    margin-top: 15px;
+    border: none;
+    background: #05c46b;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+
+}
+
+.content-img{
+    width: 50vw;
+    height: 80vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM187fzUhNR3lrQ6A_iJvVlnWCYJZ7mU9zvw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 120px;
+}
+
+.line {
+    width: 85vw;
+    height: 0.2vh;
+    background-color: lightgray;
+    margin-left: 100px;
+    position: relative;
+}
+
+.header{
+    border: 1px solid lightgray;
+    width: 13vw;
+    text-align: center;
+   padding: 10px;
+   position: absolute;
+   margin-left: 43.5%;
+   margin-top: -20px;
+   background-color: white;
+   font-size: 19px;
+   font-weight: 1000;
+}
+
+.section2{
+    width: 90vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 65px;
+}
+.card1{
+    width: 27vw;
+    height: 52vh;
+    border: 1px solid lightgray;
+    margin: 18px;
+}
+.card1 img{
+    height: 27vh;
+    width: 13vw;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.card1 h1{
+    padding-top: 15px;
+}
+
+.card1 p{
+    padding-top: 20px;
+}
+
+.card1 i{
+    padding-top: 15px;
+    color: #05c46b;
+}
+.card2{
+    width: 27vw;
+    height: 52vh;
+    border: 1px solid lightgray;
+    margin: 18px;
+}
+.card2 img{
+    height: 27vh;
+    width: 13vw;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.card2 h1{
+    padding-top: 15px;
+}
+
+.card2 p{
+    padding-top: 20px;
+}
+
+.card2 i{
+    padding-top: 15px;
+    color: #05c46b;
+}
+.card3{
+    width: 27vw;
+    height: 52vh;
+    border: 1px solid lightgray;
+    margin: 18px;
+}
+.card3 img{
+    height: 27vh;
+    width: 13vw;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.card3 h1{
+    padding-top: 15px;
+}
+
+.card3 p{
+    padding-top: 20px;
+}
+
+.card3 i{
+    padding-top: 15px;
+    color: #05c46b;
+}
+
+.section3{
+    width: 90vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+}
+
+.title1{
+    width: 27vw;
+    height: 52vh;
+    border: 1px solid lightgray;
+    margin: 18px;
+}
+
+.title1 img{
+    width: 27vw;
+    height: 26vh;
+}
+
+.title1 h1{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.title1 p{
+   padding-top: 15px;
+   padding-left: 15px;
+}
+
+.titlebtn{
+    border: none;
+    background: #05c46b;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
